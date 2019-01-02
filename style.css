@@ -1,0 +1,27 @@
+
+.card {
+    height: 70px;
+    width: 100;
+    background-color: #ad0000;
+    border: solid #3d0000 2.5px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    
+    
+}
+
+
+
+#card-grid {
+    
+    display: grid;
+    grid-template-rows: 1fr 2fr ;
+    grid-template-columns: 30% 40% 30%;
+
+    margin-top: 10%;
+
+    text-align: center;
+    position: relative;
+}
+
